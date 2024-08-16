@@ -1,0 +1,7 @@
+
+{
+    "javascript.validate.enable": true,
+    "javascript.suggestionActions.enabled": false,
+    "css.enabledLanguages": ["html", "typescript", "vue", ],
+    "css.styleSheets": ["src/**/*.css", "src/base-styles.ts", "**/${fileBasenameNoExtension}-css.ts", "**/${fileBasenameNoExtension}.css"]
+}

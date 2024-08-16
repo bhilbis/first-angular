@@ -1,0 +1,28 @@
+.card {
+    @apply transition-transform duration-200;
+  }
+  
+  .card:hover {
+    @apply transform translate-y-[-5px];
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      @apply w-full;
+    }
+  }
+  
+  .card .cursor-pointer p {
+    font-size: 1rem; /* Adjust font size */
+    display: flex;
+    align-items: center;
+  }
+  
+  .fixed.inset-0 {
+    z-index: 50; /* Ensure modals are above other content */
+  }
+  
+  button.absolute {
+    z-index: 10; /* Ensure close button is above modal content */
+  }
+  
